@@ -1,0 +1,8 @@
+puppeteer
+cheerio
+axios
+steam-guard
+rpi-gpio
+fs
+readline
+path

@@ -1,3 +1,2 @@
-2024/11/08-01:50:15.504 4bbc Reusing MANIFEST E:\steam_bot_test\bot_client\tmp\user_data\Default\Site Characteristics Database/MANIFEST-000001
-2024/11/08-01:50:15.505 4bbc Recovering log #3
-2024/11/08-01:50:15.505 4bbc Reusing old log E:\steam_bot_test\bot_client\tmp\user_data\Default\Site Characteristics Database/000003.log 
+2025/09/11-15:57:46.191 45d0 Creating DB E:\Projects\tradeup_sniper\bot_client\tmp\user_data\Default\Site Characteristics Database since it was missing.
+2025/09/11-15:57:46.204 45d0 Reusing MANIFEST E:\Projects\tradeup_sniper\bot_client\tmp\user_data\Default\Site Characteristics Database/MANIFEST-000001

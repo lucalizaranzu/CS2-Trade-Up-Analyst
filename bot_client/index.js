@@ -55,6 +55,7 @@ const item_data = {
     'Safehouse Collection': {
         'Input Items': {
             'FAMAS | Teardown (Factory New)': 'https://steamcommunity.com/market/listings/730/FAMAS%20%7C%20Teardown%20%28Factory%20New%29?query=?count=15&currency=USD',
+            'SSG08 | Acid Fade (Factory New)': 'https://steamcommunity.com/market/listings/730/SSG%2008%20%7C%20Acid%20Fade%20%28Factory%20New%29?query=?count=15&currency=USD',
         },
         'Output Items': {
             'M4A1-S | Nitro (Minimal Wear)': 'https://steamcommunity.com/market/listings/730/M4A1-S%20%7C%20Nitro%20%28Minimal%20Wear%29?count=5?currency=USD'
@@ -139,7 +140,7 @@ let max_max_profitability_ratio = 1.4; //We will maintain this profit ratio even
 let filler_items_to_check = 50; //How many items to check
 let target_items_to_check = 15;
 
-setupOverpass2024Collection();
+setupGraphicDesignCollection();
 
 //\\USER DEFINED METRICS-----------------------------------------------------------------------------------
 
@@ -168,13 +169,12 @@ let isWaitingForSelector = false;
 function setupGraphicDesignCollection(){
     addTargetCollectionInfo('Graphic Design Collection', 5);
     manuallySetFillerInfo(5,1);
-    addSpecificInputItem('SG 553 | Anodized Navy (Factory New)', 'Lake Collection', 5);
-    addSpecificInputItem('MP7 | Anodized Navy (Factory New)', 'Italy Collection', 5);
+    addSpecificInputItem('SSG 08 | Acid Fade (Factory New)', 'Safehouse Collection', 5);
     minimum_filler_float = 0.021;
     fillersToAverage = 8;
     targetsToAverage = 5;
-    average_filler_float = 0.0275; //Average float for filler items
-    average_target_float = 0.19;
+    average_filler_float = 0.0175; //Average float for filler items
+    average_target_float = 0.2;
 }
 
 function setupOverpass2024Collection(){

@@ -131,7 +131,7 @@ let buyFillerItems = false; //Set to false to prevent buying filler items
 
 const chromePath = 'C:/Users/Luca/.cache/puppeteer/chrome/win64-130.0.6723.58/chrome-win64/chrome.exe';
 
-const database_URL = 'http://104.32.171.196:80';
+const database_URL = '';
 
 let  minimum_profitability_ratio = 1.25; //Minimum acceptable profit ratio
 
